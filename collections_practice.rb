@@ -27,6 +27,7 @@ def find_a(array)
 end
 
 def sum_array(array)
+  array.sum {|arr| arr }
 end
 
 def add_s(array)
