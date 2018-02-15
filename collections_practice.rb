@@ -7,6 +7,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
+  array.each {|arr| arr.length.sort}
 end
 
 def swap_elements(array)
